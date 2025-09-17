@@ -1,0 +1,26 @@
+@import "tailwindcss";
+
+@theme {
+  --color-primary: #f5f2ef;
+  --color-secondary: #2e2d2c;
+  --color-brand: #ed9449;
+}
+
+/* Chrome, Safari, Edge, Opera */
+input[type="number"]::-webkit-outer-spin-button,
+input[type="number"]::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type="number"] {
+  -moz-appearance: textfield; /* hides spinner in FF */
+  appearance: textfield;
+}
+
+/* Optional: keep consistent outline/spacing */
+input[type="number"] {
+  /* example optional styles */
+  padding-right: 0.5rem;
+}
